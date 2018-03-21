@@ -1,5 +1,6 @@
 #Junk Files
 *.DS_Store
+*.vs
 [Tt]humbs.db
 
 #Visual Studio Files

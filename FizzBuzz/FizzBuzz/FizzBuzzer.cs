@@ -20,11 +20,6 @@
         return result.Trim();
     }
 
-    private bool ContainsThree(int value)
-    {
-        return value.ToString().Contains("3");
-    }
-
     private bool FizzBuzzable(int value)
     {
         return value % 15 == 0;
@@ -42,9 +37,6 @@
 
     private string ProcessNumber(int i)
     {
-        if (ContainsThree(i))
-            return string.Concat(" ", "lucky");
-
         if (FizzBuzzable(i))
         {
             return string.Concat(" " + "fizzbuzz");
